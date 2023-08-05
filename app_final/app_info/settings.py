@@ -85,24 +85,24 @@ WSGI_APPLICATION = 'app_info.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        "NAME": 'app_info2',
+        "NAME": 'app_info',
         'USER':'root',
-        'PASSWORD': 'Cutralco22yerben',
+        'PASSWORD': 'Cuidado.7',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
-}"""
-
-DATABASES={
-    'default':{
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR/'db.sqlite3',
-        
-    }
 }
+
+#DATABASES={
+    #'default':{
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR/'db.sqlite3',
+        
+    #}
+#}
 
 
 # Password validation
